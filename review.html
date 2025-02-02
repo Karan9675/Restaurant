@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Review Page</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            background-color: black;
+        }
+        .review-container {
+            background: #fff;
+            padding: 20px;
+            border-radius: 8px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+            width: 300px;
+        }
+        .review-container h2 {
+            margin-bottom: 20px;
+        }
+        .review-container form {
+            display: flex;
+            flex-direction: column;
+        }
+        .review-container form input,
+        .review-container form textarea {
+            margin-bottom: 10px;
+            padding: 10px;
+            border: 1px solid #ccc;
+            border-radius: 4px;
+        }
+        .review-container form button {
+            padding: 10px;
+            border: none;
+            border-radius: 4px;
+            background-color: #28a745;
+            color: #fff;
+            cursor: pointer;
+        }
+        .review-container form button:hover {
+            background-color: #218838;
+        }
+    </style>
+</head>
+<body>
+    <div class="review-container">
+        <h2>Submit Your Review</h2>
+        <form>
+            <input type="text" id="name" name="name" placeholder="Your Name" required>
+            <textarea id="review" name="review" rows="4" placeholder="Your Review" required></textarea>
+            <button type="submit">Submit</button>
+        </form>
+    </div>
+</body>
+</html>

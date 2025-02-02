@@ -1,0 +1,40 @@
+    .topright{
+        font-size: 25px;
+        font-weight: normal;
+        text-align: end;
+        border: 0cap solid white;
+        background-color: white;
+        
+    }
+    .main{
+        background-image: url(pexels-chanwalrus-958545.jpg);
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-attachment: scroll;
+        background-position: center;
+        opacity: 0.9;
+        height: 150vh;
+        width: 100%;
+    }
+    .heading{
+        font-size: 50px;
+        font-weight: bold;
+        text-align: center;
+        color: azure;
+        padding-top: 10%;
+        text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+    }
+    .ab{
+        font-size: 40px;
+        font-weight: bold;
+        text-align: center;
+        color: azure;
+        text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);   padding-top: 5%;
+    }
+    .about{
+        font-size: 20px;
+        font-weight: normal;;
+        color: azure;
+        text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+        padding-top: 5%;
+    }
